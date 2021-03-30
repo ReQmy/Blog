@@ -1,0 +1,84 @@
+// variables
+$main-text-color: #626262;
+$hover-text-color: #03a9f4;
+$subtitle-text-color: #b4ad9e;
+$main-font-family: 'Playfair Display', serif;
+$subtitle-font-family: 'Ubuntu';
+$title-font-size: 30px;
+/* genegal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $main-font-family;
+  color: $main-text-color;
+  font-size: 14px;
+  line-height: 24px;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    color: $hover-text-color;
+  }
+}
+.wrapper{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+.menu{
+  padding-top: 75px;
+  padding-bottom: 65px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.menu li{
+  text-transform: uppercase;
+}
+/*main*/
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.basic-block{
+  width: (900px - 60px) / 2;
+  margin-right: 60px;
+  &:nth-child(even){
+    margin-right: 0;
+  }
+}
+.foto{
+  margin-top: 40px;
+}
+.subtitle{
+  font-family: $subtitle-font-family;
+  color: $subtitle-text-color;
+  text-transform: uppercase;
+  margin: 30px auto;
+}
+.title{
+  font-size: $title-font-size;
+  margin-bottom: 35px;
+}
+.text{
+  margin-bottom: 90px;
+}
+/* footer */
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid;
+  &:hover{
+    color: $hover-text-color;
+  }
+  &:focus{
+    outline: 0;
+  }
+}

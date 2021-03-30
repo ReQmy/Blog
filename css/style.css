@@ -1,1 +1,93 @@
-/* No CSS */
+/* genegal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03a9f4;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+.menu {
+  padding-top: 75px;
+  padding-bottom: 65px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  text-transform: uppercase;
+}
+
+/*main*/
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.basic-block {
+  width: 420px;
+  margin-right: 60px;
+}
+
+.basic-block:nth-child(even) {
+  margin-right: 0;
+}
+
+.foto {
+  margin-top: 40px;
+}
+
+.subtitle {
+  font-family: "Ubuntu";
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin: 30px auto;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.text {
+  margin-bottom: 90px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+.button:hover {
+  color: #03a9f4;
+}
+
+.button:focus {
+  outline: 0;
+}
