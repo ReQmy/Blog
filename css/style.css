@@ -91,3 +91,10 @@ a:hover {
 .button:focus {
   outline: 0;
 }
+
+.button:active {
+  border: #fff solid 1px;
+  outline: solid 1px #03a9f4;
+  background-color: #03a9f4;
+  color: #fff;
+}

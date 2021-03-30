@@ -81,4 +81,10 @@ a{
   &:focus{
     outline: 0;
   }
+  &:active{
+    border: #fff solid 1px;
+    outline: solid 1px $hover-text-color;
+    background-color: $hover-text-color;
+    color: #fff;
+  }
 }
